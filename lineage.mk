@@ -2,7 +2,7 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common XOSP stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 $(call inherit-product, vendor/xosp/config/common_full_phone.mk)
@@ -22,7 +22,6 @@ PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_Z00A
 PRODUCT_MANUFACTURER := asus
 PRODUCT_DEVICE := Z00A
-RELEASE_TYPE := XOSP_OFFICIAL
 ROOT_METHOD := supersu
 CHROMIUM_X86 := true
 
